@@ -1,5 +1,7 @@
 import React from "react";
 import { Field, reduxForm } from "redux-form";
+import { connect } from "react-redux";
+import { createStream } from "../..actions";
 // Allow user to create a new stream
 class StreamCreate extends React.Component {
   /*display error when user deselects input fields*/
