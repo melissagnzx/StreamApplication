@@ -2,6 +2,7 @@ import React from "react";
 import { Field, reduxForm } from "redux-form";
 // Allow user to create a new stream
 class StreamCreate extends React.Component {
+  /*display error when user deselects input fields*/
   renderError({ error, touched }) {
     if (touched && error) {
       return (
